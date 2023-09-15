@@ -1,0 +1,42 @@
+.item-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.item-card{
+    background-color: grey;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border:3px double #ffffff;
+    border-radius: 15px;
+    gap: 0.5em;
+    padding: .5rem;
+    max-width: 12rem;
+}
+
+.item-img {
+    width: 100%;
+    max-width: 5rem;
+}
+
+.text-card {
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: .85rem;
+    margin: .25rem;
+}
+
+.title-card{
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding:.5rem;
+    border-radius: 100vmax;
+    font-weight: bold;
+}
