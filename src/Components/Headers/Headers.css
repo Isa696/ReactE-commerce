@@ -18,8 +18,8 @@
 }
 
 .nav-bar-li{
-    background-color: grey;
     list-style: none;
+    background-color: grey;
     display: inline-block;
     color: white;
     border-radius: 15px;

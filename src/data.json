@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Gorra Clasica",
+    "image": "./Assets/gorra1.jpeg",
+    "stock": 50,
+    "price": 3500,
+    "description": "Lleva la potencia del rock contigo en cada momento.\n\nCaracterísticas:\n\nDiseño único con el logotipo 'Freedom Lost'.\nComodidad duradera y ajuste perfecto.\nEstilo auténtico para los amantes del rock.\n¡Atrévete a destacar con 'Freedom Lost'! ¡Consíguela ahora y muestra tu devoción por el hard rock!",
+    "category": "gorra"
+  },
+  {
+    "id": 2,
+    "title": "Gorra Logo fuego",
+    "image": "./Assets/gorra2.jpeg",
+    "stock": 50,
+    "price": 3500,
+    "description": "Lleva la potencia del rock contigo en cada momento.\n\nCaracterísticas:\n\nDiseño único con el logotipo 'Freedom Lost'.\nComodidad duradera y ajuste perfecto.\nEstilo auténtico para los amantes del rock.\n¡Atrévete a destacar con 'Freedom Lost'! ¡Consíguela ahora y muestra tu devoción por el hard rock!",
+    "category": "gorra"
+  },
+  {
+    "id": 3,
+    "title": "Gorra Logo Simple",
+    "image": "./Assets/gorra3.jpeg",
+    "stock": 50,
+    "price": 3500,
+    "description": "Lleva la potencia del rock contigo en cada momento.\n\nCaracterísticas:\n\nDiseño único con el logotipo 'Freedom Lost'.\nComodidad duradera y ajuste perfecto.\nEstilo auténtico para los amantes del rock.\n¡Atrévete a destacar con 'Freedom Lost'! ¡Consíguela ahora y muestra tu devoción por el hard rock!",
+    "category": "gorra"
+  },
+  {
+    "id": 4,
+    "title": "Gorra Blanca Logo fuego",
+    "image": "./Assets/gorra4.jpeg",
+    "stock": 50,
+    "price": 3500,
+    "description": "Lleva la potencia del rock contigo en cada momento.\n\nCaracterísticas:\n\nDiseño único con el logotipo 'Freedom Lost'.\nComodidad duradera y ajuste perfecto.\nEstilo auténtico para los amantes del rock.\n¡Atrévete a destacar con 'Freedom Lost'! ¡Consíguela ahora y muestra tu devoción por el hard rock!",
+    "category": "gorra"
+  },
+  {
+    "id": 5,
+    "title": "Remera Negra simple",
+    "image": "./Assets/remeraN1.png",
+    "stock": 150,
+    "price": 7000,
+    "description": "Lleva la potencia del rock en tu pecho.\n\nCaracterísticas:\n\nDiseño exclusivo con el icónico logotipo 'Freedom Lost'.\nComodidad extrema y estilo auténtico.\nPerfecta para los amantes del rock que desean destacar.\n¡Atrévete a mostrar tu devoción por el hard rock con la remera 'Freedom Lost'! ¡Consíguela ahora y lleva la actitud del rock a todas partes!",
+    "category": "remera"
+  },
+  {
+    "id": 6,
+    "title": "Remera Negra Fuego",
+    "image": "./Assets/remeraN2.png",
+    "stock": 150,
+    "price": 7000,
+    "description": "Lleva la potencia del rock en tu pecho.\n\nCaracterísticas:\n\nDiseño exclusivo con el icónico logotipo 'Freedom Lost'.\nComodidad extrema y estilo auténtico.\nPerfecta para los amantes del rock que desean destacar.\n¡Atrévete a mostrar tu devoción por el hard rock con la remera 'Freedom Lost'! ¡Consíguela ahora y lleva la actitud del rock a todas partes!",
+    "category": "remera"
+  },
+  {
+    "id": 7,
+    "title": "Remera Blanca Simple",
+    "image": "./Assets/remeraW1.png",
+    "stock": 100,
+    "price": 7000,
+    "description": "Lleva la potencia del rock en tu pecho.\n\nCaracterísticas:\n\nDiseño exclusivo con el icónico logotipo 'Freedom Lost'.\nComodidad extrema y estilo auténtico.\nPerfecta para los amantes del rock que desean destacar.\n¡Atrévete a mostrar tu devoción por el hard rock con la remera 'Freedom Lost'! ¡Consíguela ahora y lleva la actitud del rock a todas partes!",
+    "category": "remera"
+  },
+  {
+    "id": 8,
+    "title": "Remera Blanca Fuego",
+    "image": "./Assets/remeraW2.png",
+    "stock": 100,
+    "price": 7000,
+    "description": "Lleva la potencia del rock en tu pecho.\n\nCaracterísticas:\n\nDiseño exclusivo con el icónico logotipo 'Freedom Lost'.\nComodidad extrema y estilo auténtico.\nPerfecta para los amantes del rock que desean destacar.\n¡Atrévete a mostrar tu devoción por el hard rock con la remera 'Freedom Lost'! ¡Consíguela ahora y lleva la actitud del rock a todas partes!",
+    "category": "remera"
+  }
+]

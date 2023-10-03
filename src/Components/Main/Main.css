@@ -1,10 +1,10 @@
-.item-container{
+.item-list-container{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-    gap: 0.5rem;
-    margin: 1rem 0;
+    gap: 0.5em;
+    margin: 0.5em ;
 }
 
 .item-card{
@@ -13,12 +13,12 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    border:3px double #ffffff;
     border-radius: 15px;
     gap: 0.5em;
     padding: .5rem;
     max-width: 12rem;
 }
+
 
 .item-img {
     width: 100%;
@@ -39,4 +39,21 @@
     padding:.5rem;
     border-radius: 100vmax;
     font-weight: bold;
+    text-align: center;
+}
+
+.titleGreeting{
+    padding:.5rem;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+.category{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin: 0.5em ;
 }

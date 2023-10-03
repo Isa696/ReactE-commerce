@@ -1,5 +1,5 @@
 import './Headers.css';
-import CartWidgetImg from '../Assets/cartWidgetImg.png';
+import CartWidgetImg from "../../Assets/cartWidgetImg.png";
 
 export const CartWidget = () => {
     return(
