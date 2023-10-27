@@ -9,13 +9,13 @@
 
 .item-card{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     gap: 0.5em;
     padding: .5rem;
-    max-width: 12rem;
+    max-width: 15rem;
     &:hover{
         background-color: grey;
         transition: all .3s ease;

@@ -13,6 +13,5 @@ export const pedirItemPorId = (id) => {
                 error: "No se encontró el producto"
             })
         }
-
     })
 }
