@@ -1,16 +1,16 @@
-import { CartWidget } from './CartWidget';
 import '../Headers/Headers.css';
-import { Link } from 'react-router-dom';
+import { StyledLinkHeaders } from './StyledLinkHeaders/StyledLinkHeaders';
+import CartWidget from './CartWidget/CartWidget';
 
 const Header = () => {
     return (
         <header className='contenedor-header'>
-            <ul className="nav-bar">
-                <li className="nav-bar-li">Inicio</li>
-                <li className="nav-bar-li">Integrantes</li>
-                <li className="nav-bar-li">Discografia</li>
-                <li> <Link className="nav-bar-li" to="/" >Tienda</Link></li>
-            </ul>
+            <div className="nav-bar">
+                <StyledLinkHeaders to="/inicio">Inicio</StyledLinkHeaders>
+                <StyledLinkHeaders to="/integrantes">Integrantes</StyledLinkHeaders>
+                <StyledLinkHeaders to="/discografia">Discografia</StyledLinkHeaders>
+                <StyledLinkHeaders to="/" >Tienda</StyledLinkHeaders>
+            </div>
             <CartWidget/>
         </header>
     )

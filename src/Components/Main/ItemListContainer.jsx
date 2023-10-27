@@ -1,30 +1,33 @@
 import './Main.css';
 import ItemList from './ItemList';
-import data from '../../data.json';
 import { useEffect, useState } from 'react';
 import Greeting from './Greeting';
 import { useParams } from 'react-router-dom';
+import {collection, getDocs, query, where} from 'firebase/firestore';
+import {db} from '../../firebase/config';
+
 
 export const ItemListContainer = () => {
 
   const [productos, setProductos] = useState ([])
+
   const category = useParams().category;
 
-  const pedirProductos = () => {
-    return new Promise((resolve, reject) => {
-        resolve(data)
-        })
-      }
-
       useEffect(() => {
-        pedirProductos()
-        .then((res) =>{
-          if(category){
-            setProductos(res.filter ((prod) => prod.category === category))
-          } else {
-            setProductos(res)
-          }
-        })
+
+        const productosRef = collection(db, "Items")
+
+        const qry = category ? query(productosRef, where("category", "==", category)) : productosRef;
+
+        getDocs(qry)
+            .then((resp) =>{
+              setProductos(
+                resp.docs.map ((doc) =>{
+                  return { ...doc.data(), id: doc.id }
+                })
+                )
+            })
+
       }, [category])
 
     return (

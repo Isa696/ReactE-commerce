@@ -1,0 +1,28 @@
+.CartWidgetContainer{
+    position: relative;
+}
+
+.CartWidget{
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.5em;
+    &:hover{
+        transform: scale(1.2);
+        background-color:  rgb(82, 82, 82);
+        transition: all .3s ease;
+}
+}
+
+#cart-count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2%;
+    width: 1.5em;
+    text-align: center;
+    font-size: x-small;
+}

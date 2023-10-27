@@ -1,4 +1,4 @@
-import Item from './Item';
+import ItemCard from './ItemCard';
 import './Main.css';
 
 const ItemList = ({ productos}) => {
@@ -7,7 +7,7 @@ const ItemList = ({ productos}) => {
     {productos.length > 0 &&
       productos.map((producto) => {
         return (
-          <Item key={producto.id} producto={producto}/>
+          <ItemCard key={producto.id} producto={producto}/>
           )
         })
       }

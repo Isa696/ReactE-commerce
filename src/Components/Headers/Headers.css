@@ -16,37 +16,3 @@
     font-family: 'Franklin Gothic Medium';
     width: 100%;
 }
-
-.nav-bar-li{
-    list-style: none;
-    background-color: grey;
-    display: inline-block;
-    color: white;
-    border-radius: 15px;
-    padding: 0.5em;
-    font-size: medium;
-}
-
-.CartWidgetContainer{
-    position: relative;
-}
-
-.CartWidget{
-    border-radius: 5px;
-    height: 2.5rem;
-    width: 2.5rem;
-    padding: 0.5em;
-}
-
-#CartCount{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: red;
-    color: white;
-    border-radius: 50px;
-    padding: 2%;
-    width: 2vw;
-    text-align: center;
-    font-size: x-small;
-}
