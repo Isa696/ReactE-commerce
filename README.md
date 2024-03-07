@@ -1,12 +1,12 @@
-Tienda Virtual con React.js 🛒🌟
+🌟Tienda Virtual con React.js 🛒
 
 Este proyecto es una tienda virtual desarrollada en React.js que se conecta con Firestore para gestionar productos, pedidos y datos de clientes. 
 La misma la desarrolle durante mi cursada de React.js en Coder house.
 
-A continuación, te presento las características clave del proyecto:
+✅A continuación, te presento las características clave del proyecto:
 
 Características:
-Gestión de Productos:
+🏷 🔖Gestión de Productos:
 
 Los productos se almacenan en Firestore y se muestran en la interfaz de usuario.
 Se utiliza el sistema CRUD (Crear, Leer, Actualizar y Eliminar) para administrar los productos.
