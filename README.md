@@ -16,7 +16,7 @@ Se utiliza el sistema CRUD (Crear, Leer, Actualizar y Eliminar) para administrar
 Cuando un cliente realiza una compra, se envía un formulario con los datos del cliente.
 Se genera un ID de pedido único para cada transacción.
 
-🪝 Manejo de Estados y Hooks:
+🎣 Manejo de Estados y Hooks:
 Se utilizan funciones componentes para crear la interfaz de usuario.
 Los hooks como useState, useEffect y useContext se emplean para gestionar el estado y los efectos secundarios.
 
