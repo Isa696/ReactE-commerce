@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ReactE-commerce/static/css/main.76d30b26.css",
+    "main.js": "/ReactE-commerce/static/js/main.fff3d7b6.js",
+    "static/media/fl-bg-logo.png": "/ReactE-commerce/static/media/fl-bg-logo.c24ada63dd93694f33f0.png",
+    "index.html": "/ReactE-commerce/index.html",
+    "main.76d30b26.css.map": "/ReactE-commerce/static/css/main.76d30b26.css.map",
+    "main.fff3d7b6.js.map": "/ReactE-commerce/static/js/main.fff3d7b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76d30b26.css",
+    "static/js/main.fff3d7b6.js"
+  ]
+}
