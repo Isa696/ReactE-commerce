@@ -13,10 +13,11 @@ export const ItemListContainer = () => {
 
   const category = useParams().category;
 
+  const [loading, setLoading] = useState(true);
+
       useEffect(() => {
 
-        const productosRef = collection(db, "Items")
-
+        const productosRef = collection(db, "Items");
         const qry = category ? query(productosRef, where("category", "==", category)) : productosRef;
 
         getDocs(qry)
@@ -27,13 +28,19 @@ export const ItemListContainer = () => {
                 })
                 )
             })
-
+            .finally(() => {
+              setLoading(false);
+            });
       }, [category])
 
     return (
       <>
         <Greeting/>
+          {loading ? (
+            <span className="loader"></span>
+            ) : (
             <ItemList productos={productos}/>
+            )}
       </>
   )
 }

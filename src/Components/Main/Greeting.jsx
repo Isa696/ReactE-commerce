@@ -6,8 +6,8 @@ function Greeting() {
     <>
         <h1 className='titleGreeting'>Bienvenido/a a nuestra tienda!!!</h1>
         <div className='category'>
-        <StyledLink to="/item/gorra">Gorras</StyledLink>
-        <StyledLink to="/item/remera">Remeras</StyledLink>
+        <StyledLink to="/category/gorra">Gorras</StyledLink>
+        <StyledLink to="/category/remera">Remeras</StyledLink>
         </div>
     </>
   )

@@ -1,4 +1,4 @@
-.cart-card-container{
+.form-container{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -6,39 +6,25 @@
     gap: 0.5em;
 }
 
-.cart-card{
+.form{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     gap: 0.5em;
     padding: .5em;
-    background-color: grey;
-}
-
-.item-img {
-    width: 100%;
-    max-width: 5rem;
-}
-
-.trash-img {
-    border-radius: 5px;
-    width: 100%;
-    max-width: 2rem;
-    &:hover{
-        transform: scale(0.8);
-        background-color:  rgb(82, 82, 82);
-        transition: all .3s ease;
-}
+    background-color: rgb(198, 198, 198);
+    opacity: 0.9;
 }
 
 .text-card {
     background-color: rgb(255, 255, 255);
-    padding: .5rem;
+    padding: .5em;
     border-radius: 10px;
     font-size: .85rem;
-    margin: .25rem;
+    margin: .2rem;
 }
 
 .btn-hover{
