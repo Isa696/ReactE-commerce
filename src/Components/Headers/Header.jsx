@@ -5,12 +5,7 @@ import CartWidget from './CartWidget/CartWidget';
 const Header = () => {
     return (
         <header className='contenedor-header'>
-            <div className="nav-bar">
-                <StyledLinkHeaders to="/inicio">Inicio</StyledLinkHeaders>
-                <StyledLinkHeaders to="/integrantes">Integrantes</StyledLinkHeaders>
-                <StyledLinkHeaders to="/discografia">Discografia</StyledLinkHeaders>
-                <StyledLinkHeaders to="/" >Tienda</StyledLinkHeaders>
-            </div>
+                <StyledLinkHeaders to="/" className='top-centered' >Inicio</StyledLinkHeaders>
             <CartWidget/>
         </header>
     )

@@ -30,7 +30,7 @@ function ItemDetail({item}) {
               decrement={decrement}
               />
 
-                <button className='text-card' onClick={() => {addItem(item, quantity)}} disabled={!item.stock}>
+                <button className='text-card btn-hover' onClick={() => {addItem(item, quantity)}} disabled={!item.stock}>
                 Añadir al carro</button>
 
 

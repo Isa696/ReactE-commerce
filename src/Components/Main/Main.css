@@ -71,6 +71,12 @@
     margin: 0.25em;
 }
 
+.btn-hover :hover{
+    transform: scale(0.9);
+    background-color:  rgb(82, 82, 82);
+    transition: all .3s ease;
+}
+
 .loader {
     width: 8px;
     height: 8px;

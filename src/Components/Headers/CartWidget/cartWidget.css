@@ -1,5 +1,7 @@
 .CartWidgetContainer{
-    position: relative;
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
 }
 
 .CartWidget{
