@@ -30,8 +30,6 @@ Firestore se utiliza como la base de datos para almacenar información sobre pro
 🖥Rendering Condicional:
 La interfaz de usuario se actualiza dinámicamente según el estado y los datos disponibles.
 
-Instrucciones de Uso:
-Clona este repositorio: git clone https://github.com/Isa696/ReactE-commerce.git
-Instala las dependencias: npm install
-Configura tus credenciales de Firestore en el archivo de configuración.
-Ejecuta la aplicación: npm start
+Puedes ver el sitio aqui:
+
+https://isa696.github.io/ReactE-commerce/
