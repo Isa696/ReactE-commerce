@@ -32,4 +32,3 @@ La interfaz de usuario se actualiza dinámicamente según el estado y los datos 
 
 Puedes ver el sitio aqui:
 
-https://isa696.github.io/ReactE-commerce/
